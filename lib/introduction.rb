@@ -3,5 +3,5 @@ def introduction(name)
 end
 
 def introduction_with_language(language)
-  puts ""
-  it "takes in two arguments, a name and a language, and puts out a phrase using those arguments." do 
+  puts ""Hi, my name is #{name} and I am learning to program in #{language}.
+end
